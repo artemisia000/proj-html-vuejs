@@ -1,10 +1,9 @@
 <template>
 <div class="hero">
     <div class="container-md box2">
+        
 
     </div>
-
-
 </div>
   
 
