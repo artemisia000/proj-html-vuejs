@@ -1,21 +1,30 @@
 <template>
+
 <header>
+    <GreenNum />
 
-    <h1>TEST</h1>
+    
 
 
+  
 
 </header>
   
-
-
 </template>
 
 <script>
-export default {
-    name: 'Header'
 
+import GreenNum from '@/components/GreenNum.vue';
+
+
+export default {
+    name: 'Header',
+
+    components: {  
+        GreenNum,
+    }
 }
+
 </script>
 
 <style>
