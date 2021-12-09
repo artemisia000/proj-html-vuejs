@@ -1,13 +1,13 @@
 <template>
 
    <div class="greenNum">
-       <div class="container">
+       <div class="container box">
            <div>
                We Have a 95% Successfull Pass Rate!
            </div>
            <div>
-               <font-awesome-icon icon="fa-solid fa-phone-flip" />
-               Give us a call to book your tuition
+               <i class="fa-solid fa-phone-flip"></i>
+               Give us a call to book your tuition! 1-800-555-555
            </div>
 
 
@@ -29,6 +29,12 @@ export default {
     max-width: 100%;
     height: 60px;
     background-color: #484848;
+}
+
+.box{
+    justify-content: space-between;
+    line-height: 60px;
+
 }
 
 </style>
