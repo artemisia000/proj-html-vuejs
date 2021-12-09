@@ -13,17 +13,39 @@
     font-family: 'Readex Pro', sans-serif
 }
 
-.container{
-    width: 800px;
-    display: flex;
-}
+
 
 .box{
     color: $text-col;    
 }
 
+.box1{
+    color: $primary-col;
+}
+
+
 .box2{
     color: $text-col-2;
 }
+
+.box3{
+    color: $text-col-3;
+}
+
+.btnAvada{
+    height: $height-btn;
+    line-height: $line-h;
+    background-color: $primary-col;
+    border-radius: $bord-rad;
+    text-align: center;
+ 
+
+    a{
+        color: $text-col-2;
+        text-decoration: none;
+    }
+
+}
+
 
 

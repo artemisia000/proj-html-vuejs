@@ -30,17 +30,6 @@ export default {
 
 @import '@/components/styles/globals';
 
-.btn{
-    height: 30px;
-    line-height: 30px;
-    background-color: #7abc64;
-    border-radius: 20px;
-    color: #fff;
-
-
-}
-
-
 
 
 

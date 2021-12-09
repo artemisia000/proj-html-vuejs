@@ -1,7 +1,7 @@
 <template>
 
 <div class="navbar">
-    <div class="container box2">
+    <div class="container-md box2">
         <img src="../assets/avada-drivers-logo-2.png" alt="">
         <div class="">
             <a href="">HOME</a>
@@ -21,9 +21,11 @@
         <div class="div">
             <a href="">BLOG</a>
         </div>
-        <button class="btn" >
-            BOOK NOW
-        </button>
+        <div class="btnAvada btn1">
+            <a href="">
+                BOOK NOW
+            </a>
+        </div>
         
         
 
@@ -42,15 +44,16 @@ export default {
 <style scoped lang="scss">
 
 .navbar{
-    max-width: 100%;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 1;
 
     a{
         color: #fff;
         text-decoration: none;
-    }
-
+    }  
 }
 
 .btn1{

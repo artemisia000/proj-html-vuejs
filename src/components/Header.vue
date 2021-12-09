@@ -5,6 +5,8 @@
 
     <Navbar />
 
+    <Hero />
+
 
 </header>
   
@@ -14,6 +16,7 @@
 
 import GreenNum from '@/components/GreenNum.vue';
 import Navbar from '@/components/Navbar.vue';
+import Hero from '@/components/Hero.vue';
 
 
 export default {
@@ -22,6 +25,7 @@ export default {
     components: {  
         GreenNum,
         Navbar,
+        Hero,
     }
 }
 

@@ -1,7 +1,7 @@
 <template>
 
    <div class="greenNum">
-       <div class="container box">
+       <div class="container-md box">
            <div>
                We Have a 95% Successfull Pass Rate!
            </div>
@@ -26,7 +26,7 @@ export default {
 <style scoped lang="scss">
 
 .greenNum{
-    max-width: 100%;
+    width: 100%;
     height: 40px;
     background-color: #484848;
 }
