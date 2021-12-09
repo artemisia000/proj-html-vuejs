@@ -27,13 +27,13 @@ export default {
 
 .greenNum{
     max-width: 100%;
-    height: 60px;
+    height: 40px;
     background-color: #484848;
 }
 
 .box{
     justify-content: space-between;
-    line-height: 60px;
+    line-height: 40px;
 
 }
 

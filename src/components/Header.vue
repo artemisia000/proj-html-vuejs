@@ -3,10 +3,8 @@
 <header>
     <GreenNum />
 
-    
+    <Navbar />
 
-
-  
 
 </header>
   
@@ -15,6 +13,7 @@
 <script>
 
 import GreenNum from '@/components/GreenNum.vue';
+import Navbar from '@/components/Navbar.vue';
 
 
 export default {
@@ -22,6 +21,7 @@ export default {
 
     components: {  
         GreenNum,
+        Navbar,
     }
 }
 
