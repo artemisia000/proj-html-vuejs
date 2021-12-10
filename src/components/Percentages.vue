@@ -1,23 +1,23 @@
 <template>
 
-<div class="content  justify-content-beetween">
-    <div class="card">
+<div class="content  justify-content-between">
+    <div class="card boxes">
         <div class="circle">
             <span class="box fs-1">95%</span>
         </div>
-        <span class="f-18 box">PASS RATE</span>
+        <span class="f-18 box mt-5">PASS RATE</span>
     </div>
-    <div class="card">
+    <div class="card boxes">
         <div class="circle">
             <span class="box fs-1" >95%</span>
         </div>
-        <span class="f-18 box">PASS RATE</span>
+        <span class="f-18 box mt-5">PASS RATE</span>
     </div>
-    <div class="card">
+    <div class="card boxes">
         <div class="circle">
             <span class="box fs-1" >95%</span>
         </div>
-        <span class="f-18 box">PASS RATE</span>
+        <span class="f-18 box mt-5">PASS RATE</span>
     </div>
 
 </div>
@@ -40,6 +40,7 @@ export default {
     border-top: 6px solid #7abc64;
     justify-content: center;
     align-items: center;
+    top: -100px;
     
     .circle{
         width: 200px;

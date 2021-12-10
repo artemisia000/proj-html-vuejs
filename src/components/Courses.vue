@@ -57,8 +57,8 @@ export default {
  
 
     .tab{
-        width: 420px;
-        height: 420px;
+        width: 380px;
+        height: 380px;
         background-color: #fff;
         top: -30px;
 

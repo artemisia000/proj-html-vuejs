@@ -8,6 +8,10 @@
 
     <Percentages />
 
+    <YourInstructors />
+
+    <Instructors />
+
 </main>
   
 
@@ -20,6 +24,8 @@ import SectionTop from '@/components/SectionTop.vue';
 import Hero2 from '@/components/Hero2.vue';
 import Courses from '@/components/Courses.vue';
 import Percentages from '@/components/Percentages.vue';
+import YourInstructors from '@/components/YourInstructors.vue';
+import Instructors from '@/components/Instructors.vue';
 
 export default {
     name: 'Main',
@@ -28,6 +34,8 @@ export default {
         Hero2,
         Courses,
         Percentages,
+        YourInstructors,
+        Instructors,
     }
 
 }

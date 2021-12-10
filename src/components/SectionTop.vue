@@ -42,28 +42,28 @@ export default {
 <style scoped lang="scss" >
 
 .sectionTop{
-    height: 670px;
+    height: 600px;
     justify-content: space-between;
     position: relative;
 
     .text{
         width: 540px;
-        margin-top: 80px;
+        margin-top: 50px;
             
     }
 
     .form{
-        width: 500px;
-        height: 600px;
+        width: 450px;
+        height: 550px;
         display: flex;
         flex-direction: column;
         background-color: #fff;
         right: 0;
-        top: -60px;
+        top: -40px;
 
         input{
-            width: 450px;
-            height: 50px;
+            width: 300px;
+            height: 35px;
             color: #d2d1d1;
             border-radius: 1px solid #d2d1d1;
             border-radius: 5px;
