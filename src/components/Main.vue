@@ -12,6 +12,8 @@
 
     <Instructors />
 
+    <Testimonials />
+
 </main>
   
 
@@ -26,6 +28,7 @@ import Courses from '@/components/Courses.vue';
 import Percentages from '@/components/Percentages.vue';
 import YourInstructors from '@/components/YourInstructors.vue';
 import Instructors from '@/components/Instructors.vue';
+import Testimonials from '@/components/Testimonials.vue';
 
 export default {
     name: 'Main',
@@ -36,6 +39,7 @@ export default {
         Percentages,
         YourInstructors,
         Instructors,
+        Testimonials,
     }
 
 }
