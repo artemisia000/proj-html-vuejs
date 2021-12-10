@@ -46,5 +46,12 @@
 
 }
 
+.boxes{
+    position: $pos-abs;
+    border-radius: $bord-rad;
+    box-shadow: $shadow;
+    z-index: $index;
+}
+
 
 
