@@ -6,12 +6,10 @@
         <div class="image">
             <img src="../assets/testimonial-kate.png" alt="">
         </div>
-        <p class="box" >Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended.</p>
+        <p class="box coursive" >Avada Driving School really helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Highly recommended.</p>
         <p class="box" >Sophia Jones</p>
 
     </div>
-
-
 </div>
 
 </template>
@@ -38,6 +36,14 @@ export default {
     img{
         width: 150px;
         margin: 30px 0;
+    }
+
+    .coursive{
+        font-family: 'Cabin', sans-serif;
+        font-family: 'Cabin Sketch', cursive;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Readex Pro', sans-serif;
+        font-family: 'Work Sans', sans-serif;
     }
 
 

@@ -14,6 +14,8 @@
 
     <Testimonials />
 
+    <Hero3 />
+
 </main>
   
 
@@ -29,6 +31,7 @@ import Percentages from '@/components/Percentages.vue';
 import YourInstructors from '@/components/YourInstructors.vue';
 import Instructors from '@/components/Instructors.vue';
 import Testimonials from '@/components/Testimonials.vue';
+import Hero3 from '@/components/Hero3.vue';
 
 export default {
     name: 'Main',
@@ -40,6 +43,7 @@ export default {
         YourInstructors,
         Instructors,
         Testimonials,
+        Hero3,
     }
 
 }
