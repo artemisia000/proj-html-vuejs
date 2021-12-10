@@ -2,10 +2,10 @@
 
    <div class="greenNum">
        <div class="content box">
-            <div>
+            <div class="f-11" >
                 We Have a 95% Successfull Pass Rate!
             </div>
-            <div>
+            <div class="f-11" >
                 <i class="fa-solid fa-phone-flip"></i>
                 Give us a call to book your tuition! 1-800-555-555
             </div>

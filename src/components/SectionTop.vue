@@ -2,22 +2,26 @@
  <div class="content box sectionTop">
      <div class="text">
          <h1 class="box3 my-5" >Get Behind The Wheel</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.
+         <p class="f-20 lh-lg" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.
          </p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.
+         <p class="f-15 lh-lg" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.
          </p>
      </div>
      <div class="form boxes d-flex align-items-center text-center">
-         <h3 class="box1 m-5" >First Lesson Free!</h3>
-         <p class="mt-3 mx-3" >When you make a block booking with us your first lesson is included free.</p>
+         <h3 class="box1 m-3" >First Lesson Free!</h3>
+         <p class="mt-3 mx-3 f-15" >When you make a block booking with us your first lesson is included free.</p>
          <input type="text"
-                placeholder="Your Name*">
+                placeholder="Your Name*"
+                class="f-11">
          <input type="text"
-                placeholder="Email">
+                placeholder="Email"
+                class="f-11">
          <input type="text"
-                placeholder="Telephone*">
+                placeholder="Telephone*"
+                class="f-11">
         <input type="text"
-                placeholder="Location">
+                placeholder="Location"
+                class="f-11">
         <div class="btnAvada btn2 mt-3">
             <a href="">REQUEST A CALLBACK</a>
         </div>        
@@ -43,12 +47,14 @@ export default {
     position: relative;
 
     .text{
-        width: 540px;     
+        width: 540px;
+        margin-top: 80px;
+            
     }
 
     .form{
-        width: 540px;
-        height: 650px;
+        width: 500px;
+        height: 600px;
         display: flex;
         flex-direction: column;
         background-color: #fff;

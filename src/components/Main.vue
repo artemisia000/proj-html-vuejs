@@ -4,7 +4,7 @@
 
     <Hero2 />
 
-    <Body />
+    <Courses />
 
 </main>
   
@@ -16,14 +16,14 @@
 
 import SectionTop from '@/components/SectionTop.vue';
 import Hero2 from '@/components/Hero2.vue';
-import Body from '@/components/Body.vue';
+import Courses from '@/components/Courses.vue';
 
 export default {
     name: 'Main',
     components: {
         SectionTop,
         Hero2,
-        Body,
+        Courses,
     }
 
 }

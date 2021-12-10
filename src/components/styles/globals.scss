@@ -12,7 +12,7 @@
     font-family: 'Readex Pro', sans-serif
 }
 
-
+//COLORS
 
 .box{
     color: $text-col;    
@@ -31,6 +31,32 @@
     color: $text-col-3;
 }
 
+.box4{
+    color: $text-col-4;
+}
+
+
+
+//TYPOGRAPHY
+
+.f-11{
+    font-size: $font-11;
+}
+
+.f-15{
+    font-size: $font-15;
+}
+
+.f-20{
+    font-size: $font-20;
+}
+
+
+
+
+
+//BUTTONS
+
 .btnAvada{
     height: $height-btn;
     line-height: $line-h;
@@ -45,6 +71,23 @@
     }
 
 }
+
+.btnAviat{
+    height: $height-btnA;
+    line-height: $line-hA;
+    border-radius: $bord-rad;
+    border: $bord-col;
+    text-align: center;
+  
+
+    a{
+        color: $text-col-4;
+        text-decoration: none;
+    }
+
+}
+
+//BOXES
 
 .boxes{
     position: $pos-abs;
