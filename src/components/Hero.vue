@@ -1,7 +1,7 @@
 <template>
 
   <div class="hero">
-      <div class="container-md box2 text" >
+      <div class="content box2 text" >
           <h1>Drive with Avada</h1>
           <h4>We offer the finest driving tuition money can buy</h4>
       </div>
@@ -27,6 +27,7 @@ export default {
     
     .text{
         flex-direction: column;
+        
         
         
     }

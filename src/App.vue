@@ -30,6 +30,12 @@ export default {
 
 @import '@/components/styles/globals';
 
+.content{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+
 
 
 
