@@ -31,7 +31,7 @@ export default {
 @import '@/components/styles/globals';
 
 .content{
-  width: 1050px;
+  width: 970px;
   margin: 0 auto;
   display: flex;
 }

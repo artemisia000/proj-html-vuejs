@@ -1,10 +1,10 @@
 <template>
  <div class="content box sectionTop">
      <div class="text">
-         <h1 class="box3 my-5" >Get Behind The Wheel</h1>
+         <h1 class="box3 my-4" >Get Behind The Wheel</h1>
          <p class="f-20 lh-lg" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.
          </p>
-         <p class="f-15 lh-lg" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.
+         <p class="f-15  lh-base" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.
          </p>
      </div>
      <div class="form boxes d-flex align-items-center text-center">
@@ -47,14 +47,14 @@ export default {
     position: relative;
 
     .text{
-        width: 540px;
+        width: 450px;
         margin-top: 50px;
             
     }
 
     .form{
         width: 450px;
-        height: 550px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         background-color: #fff;
@@ -67,7 +67,7 @@ export default {
             color: #d2d1d1;
             border-radius: 1px solid #d2d1d1;
             border-radius: 5px;
-            margin: 20px auto;
+            margin: 15px auto;
         }
         .btn2{
             width: 215px;

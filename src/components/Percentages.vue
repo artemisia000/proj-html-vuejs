@@ -34,8 +34,8 @@ export default {
 
 
 .card{
-    width: 340px;
-    height: 400px;
+    width: 318px;
+    height: 350px;
     border-radius: 15px;
     border-top: 6px solid #7abc64;
     justify-content: center;

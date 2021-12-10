@@ -1,6 +1,8 @@
 <template>
 <footer>
 
+    <NewsLetter />
+
 
 </footer>
   
@@ -9,9 +11,15 @@
 </template>
 
 <script>
-export default {
-    name: 'Footer'
+import NewsLetter from '@/components/NewsLetter.vue';
 
+
+export default {
+    name: 'Footer',
+
+    components:{
+        NewsLetter,
+    }
 }
 </script>
 

@@ -57,8 +57,8 @@ export default {
  
 
     .tab{
-        width: 380px;
-        height: 380px;
+        width: 330px;
+        height: 330px;
         background-color: #fff;
         top: -30px;
 
@@ -79,7 +79,7 @@ export default {
         margin-left: 40px;
 
         img{
-            width: 180px;
+            width: 160px;
         }
 
     .btnAviat{
