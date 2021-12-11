@@ -3,6 +3,8 @@
 
     <NewsLetter />
 
+    <Contact />
+
 
 </footer>
   
@@ -12,6 +14,7 @@
 
 <script>
 import NewsLetter from '@/components/NewsLetter.vue';
+import Contact from '@/components/Contact.vue';
 
 
 export default {
@@ -19,6 +22,7 @@ export default {
 
     components:{
         NewsLetter,
+        Contact,
     }
 }
 </script>

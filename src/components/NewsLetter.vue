@@ -28,6 +28,14 @@ export default {
     height: 320px;
     background-image: url(../assets/newsletter_background.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .news{
+        width: 600px;
+        height: 280px;
+    }
 }
 
 
