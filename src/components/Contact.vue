@@ -2,23 +2,71 @@
 <div class="hero">
     <div class="content contact">
         <div class="card">
-            titltitlt
+            <img src="../assets/avada-drivers-logo-2.png" alt="">
+            <p class="f-11 box" >Avada Driving School is the right choice for experienced drivers looking for a refresher course, or the brand new driver wanting to pass first time.</p>
         </div>        
         <div class="card">
-            titltitlt
+            <h5>CONTACT DETAILS</h5>
+            <div>
+                <i class="fas fa-home box5"></i>
+                <span class="f-11 box" >12345 North Main Street,
+                      New York, NY 555555
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-phone box5"></i>
+                <span class="f-11 box" >
+                    1.800.555.6789
+                </span>
+            </div>
+            <div>
+                <i class="far fa-envelope box5"></i>
+                <span class="f-11 box" >
+                    info@your-domain.com
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-link box5"></i>
+                <span class="f-11 box" >
+                    Theme-Fusion.com
+                </span>
+            </div>      
         </div>
+
         <div class="card">
-            titltitlt
-        </div>        
+            <h5>COURSES</h5>
+            <div>
+                <i class="far fa-arrow-alt-circle-right box1 "></i>
+                <span>
+                    <a class="box1 f-15" href="">Pass Plus</a>
+                </span>
+            </div>
+            <div>
+                <i class="far fa-arrow-alt-circle-right box1"></i>
+                <span>
+                    <a class="box1 f-15" href="">Intensive Course</a>
+                </span>
+            </div>
+            <div>
+                <i class="far fa-arrow-alt-circle-right box1"></i>
+                <span>
+                    <a class="box1 f-15" href="">Automatic</a>
+                </span>
+            </div>
+            <div>
+                <i class="far fa-arrow-alt-circle-right box1"></i>
+                <span>
+                    <a class="box1 f-15" href="">Instructor Training</a>
+                </span>
+            </div>
+        </div> 
+
         <div class="card">
-            titltitlt
+            <img src="../assets/grid1.png" alt="">
+            <div class="btnAvada mt-4">
+                <a href="">BOOK NOW</a>
+            </div>
         </div>
-
-
-
-
-
-
 
     </div>
   
@@ -39,10 +87,25 @@ export default {
     height: 350px;
     background-image: url(../assets/footer-background-color.jpg);
     background-size: cover;
-
-
-.contact{
+    
+.card{
     width: calc(100% /4);
+    height: 350px;
+    background-color: transparent;
+    border: transparent;
+    padding: 50px 10px;
+
+    span{
+        padding-left: 10px;
+        line-height: 35px;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 35px;      
+    }
+    
 }
 
 }
