@@ -35,6 +35,9 @@
     color: $text-col-4;
 }
 
+.box5{
+    color: $text-col-5;
+}
 
 
 //TYPOGRAPHY
@@ -65,10 +68,11 @@
     height: $height-btn;
     line-height: $line-h;
     background-color: $primary-col;
-    border-radius: $bord-rad;
+    border-radius: $bord-rad25;
     text-align: center;
- 
-
+    font-size: $font-13;
+    font-weight: 600;
+    
     a{
         color: $text-col-2;
         text-decoration: none;
@@ -76,14 +80,17 @@
 
 }
 
+
+
 .btnAviat{
     height: $height-btnA;
     line-height: $line-hA;
-    border-radius: $bord-rad;
+    border-radius: $bord-rad25;
     border: $bord-col;
     text-align: center;
+    font-size: $font-13;
+    font-weight: 600;
   
-
     a{
         color: $text-col-4;
         text-decoration: none;

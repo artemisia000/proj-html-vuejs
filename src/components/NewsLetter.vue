@@ -4,9 +4,11 @@
         <h1 class="box3">Sign up to our Newsletter</h1>
         <input type="text">
         <div class="btnAvada">
-            SUBSCRIBE
+            <a href="">SUBSCRIBE</a>
         </div>
-        <p>(We do not share your data with anybody, and only use it for its intended purpose)</p>
+        <p class="box f-11" >
+           (We do not share your data with anybody, and only use it for its intended purpose)
+        </p>
     </div>
 </div>
 
@@ -33,8 +35,17 @@ export default {
     align-items: center;
 
     .news{
-        width: 600px;
+        width: 500px;
         height: 280px;
+        
+        
+        input{
+            width: 100%;
+            height: 38px;
+            border: 1px solid #e3e3e3;
+            border-radius: 3px;
+            background-color: #f7f7f7;
+        }
     }
 }
 

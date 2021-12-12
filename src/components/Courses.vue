@@ -5,7 +5,7 @@
             <h1 class="box3 my-5" >Courses</h1>
             <p class="box mx-3 lh-base" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.</p>
             <div class="btnAvada button">
-                COURSE INFORMATION
+                <a href="">COURSE INFORMATION</a>
             </div>
         </div>
         <div class="courses">
