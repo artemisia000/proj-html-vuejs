@@ -2,21 +2,24 @@
 <div class="hero d-flex justify-content-center">
     <div class="news">
         <div class="latest">
-            <h1 class="box3" >Latest News</h1>
+            <h1 class="box3 mt-3" >Latest News</h1>
         </div>
-        <div class="d-flex" >
+        <div class="d-flex cards" >
             <div class="card">
                 <img src="../assets/choosecar.jpg" alt="">
-                <h4>gdhdjdkd</h4>
-                <span>djdjdkd</span>
-                <span>ddkdkdkd</span>
+                <h4><a href="">What Car to Start With?</a></h4>
+                <span class="f-11 box" >February 7th, 2019|<span class="box1" >0 Comments</span></span>
+                <span class="box" >Lorem ipsum dolor sit amet, consectetur adipiscing</span>
             </div>
             <div class="card">
                 <img src="../assets/blogspot.jpg" alt="">
-                <h4>gdhdjdkd</h4>
-                <span>djdjdkd</span>
-                <span>ddkdkdkd</span>
+                <h4><a href="">Avada Driving School Expanding</a></h4>
+                <span class="f-11 box" >February 7th, 2019| <span class="box1" >0 Comments</span></span>
+                <span class="box" >Lorem ipsum dolor sit amet, consectetur adipiscing</span>
             </div>
+        </div>
+        <div class="btnAvada button">
+            <a href="">MORE FROM THE BLOG</a>
         </div>
     </div>
     <div>
@@ -38,20 +41,20 @@ export default {
 
 .hero{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image: url(../assets/latestnews-background.jpg);
     background-size: cover;
     position: relative;
 
     .news{
         width: 970px;
-        height: 500px;
+        height: 600px;
         margin: 0 auto;
         background-color: #fff;
         border-top: 6px solid #7799ad;
         border-radius: 10px 10px 0 0;
         position: absolute;
-        top: -35px;
+        top: -50px;
         left: 269px;
 
         .latest{
@@ -62,6 +65,20 @@ export default {
         .card{
             width: 400px;
             height: 100%;
+            margin: 40px auto;
+            text-align: center;
+            border: transparent;
+
+            a{
+                text-decoration: none;
+                color: #7abc64;
+                font-size: 20px;
+            }  
+        }
+
+        .button{
+            width: 250px;
+            margin: 0 auto;
         }
        
     }
