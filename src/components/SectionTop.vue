@@ -2,14 +2,14 @@
  <div class="content box sectionTop">
      <div class="text">
          <h1 class="box3 my-4 f-35">Get Behind The Wheel</h1>
-         <p class="f-20 lh-lg" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.
+         <p class="f-18 w-300 mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.
          </p>
-         <p class="f-15  lh-base" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.
+         <p class="f-13 w-300 mt-4" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.
          </p>
      </div>
      <div class="form boxes d-flex align-items-center text-center">
-         <h3 class="box1 m-3" >First Lesson Free!</h3>
-         <p class="mt-3 mx-3 f-15" >When you make a block booking with us your first lesson is included free.</p>
+         <h3 class="box1 mt-5" >First Lesson Free!</h3>
+         <p class="my-3 mx-5 f-13 w-300" >When you make a block booking with us your first lesson is included free.</p>
          <input type="text"
                 placeholder="Your Name*"
                 class="f-11">
@@ -49,12 +49,13 @@ export default {
     .text{
         width: 450px;
         margin-top: 50px;
+        line-height: 30px;
             
     }
 
     .form{
         width: 450px;
-        height: 500px;
+        height: 550px;
         display: flex;
         flex-direction: column;
         background-color: #fff;
@@ -62,12 +63,14 @@ export default {
         top: -40px;
 
         input{
-            width: 300px;
-            height: 35px;
+            width: 350px;
+            height: 40px;
             color: #d2d1d1;
             border: 1px solid #d2d1d1;
             border-radius: 5px;
             margin: 15px auto;
+            padding: 10px;
+            background-color: #f7f7f7;
         }
         .btn2{
             width: 215px;
