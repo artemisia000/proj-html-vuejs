@@ -49,9 +49,11 @@ export default {
         border-radius: 50%;
         text-align: center;
         line-height: 180px;
+
+      }
         
     }
-    }
+    
 
 
 </style>

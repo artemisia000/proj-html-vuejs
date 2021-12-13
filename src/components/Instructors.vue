@@ -64,6 +64,10 @@ export default {
 
     img{
         width: 200px;
+        &:hover{
+            transform: scale(1.2) translate(0, 0);
+            transition: transform 1s linear;
+        }
     }
 
     .social{

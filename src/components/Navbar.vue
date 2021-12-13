@@ -76,8 +76,8 @@ export default {
         }
            
             .new{
-                width: 20px;
-                height: 14px;
+                width: 30px;
+                height: 15px;
                 background-color: #7abc64;
                 border-radius: 2px;
                 font-size: 10px;

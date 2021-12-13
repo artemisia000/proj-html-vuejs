@@ -9,13 +9,13 @@
                 <img src="../assets/choosecar.jpg" alt="">
                 <h4 class="mt-3" ><a href="">What Car to Start With?</a></h4>
                 <span class="f-11 box" >February 7th, 2019|<span class="box1" >0 Comments</span></span>
-                <span class="box f-15 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                <span class="box f-15 mt-3 w-300">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
             </div>
             <div class="card">
                 <img src="../assets/blogspot.jpg" alt="">
                 <h4 class="mt-3" ><a href="">Avada Driving School Expanding</a></h4>
                 <span class="f-11 box" >February 7th, 2019| <span class="box1" >0 Comments</span></span>
-                <span class="box f-15 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                <span class="box f-15 mt-3 w-300">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
             </div>
         </div>
         <div class="btnAvada button">
@@ -85,7 +85,8 @@ export default {
 
     .triangle{
         width: 970px;
-        margin-top: 530px;        
+        margin-top: 530px; 
+        filter: drop-shadow(boxes3);       
         }
 
 

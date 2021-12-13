@@ -92,6 +92,10 @@ export default {
 
         img{
             width: 160px;
+            &:hover{
+                filter: brightness(1.5);
+                transition: filter 1s ease;
+            }
         }
 
     .btnAviat{
