@@ -96,15 +96,15 @@
     font-weight: 600;
     &:hover{
         background-color: #65a84e;
-        color: #fff;
     }
     
     a{
         color: $text-col-2;
         text-decoration: none;
-   
+        &:hover{
+            color: #fff;
+        }
     }
-
 }
 
 
@@ -116,6 +116,10 @@
     text-align: center;
     font-size: $font-13;
     font-weight: 600;
+    color: #7799ad;
+    &:hover{
+        border: 3px solid  #7abc64;
+    }
     
     a{
         color: $text-col-4;
@@ -124,10 +128,7 @@
 
     &:hover{
         color: #7abc64;
-        border: 3px solid  #7abc64;
     }
-
-
 }
 
 //BOXES

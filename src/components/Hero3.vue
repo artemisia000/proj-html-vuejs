@@ -69,6 +69,13 @@ export default {
             text-align: center;
             border: transparent;
 
+            img{
+                &:hover{
+                    filter: brightness(1.4);
+                    transition: filter 1s linear;
+                }
+            }
+
             a{
                 text-decoration: none;
                 color: #7abc64;
@@ -79,17 +86,14 @@ export default {
         .button{
             width: 220px;
             margin: 0 auto;
-        }
-       
+        }     
     }
 
     .triangle{
         width: 970px;
         margin-top: 530px; 
-        filter: drop-shadow(boxes3);       
+        filter: drop-shadow(30px 10px 4px#588281 );       
         }
-
-
 }
 
 </style>
