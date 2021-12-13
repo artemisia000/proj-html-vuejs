@@ -1,7 +1,7 @@
 <template>
  <div class="content box sectionTop">
      <div class="text">
-         <h1 class="box3 my-4" >Get Behind The Wheel</h1>
+         <h1 class="box3 my-4 f-35">Get Behind The Wheel</h1>
          <p class="f-20 lh-lg" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.
          </p>
          <p class="f-15  lh-base" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh.

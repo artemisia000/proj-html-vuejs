@@ -9,7 +9,7 @@
             <i class="box fab fa-twitter"></i>
             <i class="box fab fa-instagram"></i>
         </div>
-        <span class="box mt-3 lh-lg" >
+        <span class="box mt-3 lh-base w-300 f-13" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
     </div>
@@ -21,7 +21,7 @@
             <i class="box fab fa-twitter"></i>
             <i class="box fab fa-instagram"></i>
         </div>
-        <span class="box mt-3 lh-lg" >
+        <span class="box mt-3 lh-base w-300 f-13" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
     </div>
@@ -33,7 +33,7 @@
             <i class="box fab fa-twitter"></i>
             <i class="box fab fa-instagram"></i>
         </div>
-        <span class="box mt-3 lh-lg" >
+        <span class="box mt-3 lh-base w-300 f-13" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
     </div>

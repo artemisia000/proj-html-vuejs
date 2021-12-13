@@ -2,8 +2,8 @@
     
     <div class="content your">
         <div class="text">
-            <h1 class="box3" >Your Instructors</h1>
-            <p class="box" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.</p>
+            <h1 class="box3 f-35 mb-5" >Your Instructors</h1>
+            <p class="box w-300 f-18" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper.</p>
         </div>
         <div class="button">
             <div class="btnAvada">
@@ -17,8 +17,8 @@
 <script>
 export default {
     name: 'YourInstructors'
-
 }
+
 </script>
 
 <style scoped lang="scss">

@@ -48,7 +48,7 @@ footer{
             width: 11px;
             color: #fff;
             padding: 0 16px;
-            margin-bottom: -1rem;
+            margin:auto;
         }
     
     }

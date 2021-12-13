@@ -2,20 +2,20 @@
 <div class="hero d-flex justify-content-center">
     <div class="news">
         <div class="latest">
-            <h1 class="box3 mt-3" >Latest News</h1>
+            <h1 class="box3 mt-5 f-35" >Latest News</h1>
         </div>
         <div class="d-flex cards" >
             <div class="card">
                 <img src="../assets/choosecar.jpg" alt="">
-                <h4><a href="">What Car to Start With?</a></h4>
+                <h4 class="mt-3" ><a href="">What Car to Start With?</a></h4>
                 <span class="f-11 box" >February 7th, 2019|<span class="box1" >0 Comments</span></span>
-                <span class="box" >Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                <span class="box f-15 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
             </div>
             <div class="card">
                 <img src="../assets/blogspot.jpg" alt="">
-                <h4><a href="">Avada Driving School Expanding</a></h4>
+                <h4 class="mt-3" ><a href="">Avada Driving School Expanding</a></h4>
                 <span class="f-11 box" >February 7th, 2019| <span class="box1" >0 Comments</span></span>
-                <span class="box" >Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                <span class="box f-15 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
             </div>
         </div>
         <div class="btnAvada button">
@@ -48,14 +48,14 @@ export default {
 
     .news{
         width: 970px;
-        height: 600px;
+        height: 580px;
         margin: 0 auto;
         background-color: #fff;
         border-top: 6px solid #7799ad;
         border-radius: 10px 10px 0 0;
         position: absolute;
         top: -50px;
-        left: 269px;
+        left: 274px;
 
         .latest{
             width: 970px;
@@ -77,7 +77,7 @@ export default {
         }
 
         .button{
-            width: 250px;
+            width: 220px;
             margin: 0 auto;
         }
        
@@ -85,8 +85,9 @@ export default {
 
     .triangle{
         width: 970px;
-        margin-top: 465px;        
+        margin-top: 530px;        
         }
+
 
 }
 

@@ -1,9 +1,9 @@
 <template>
 <div class="hero" >
     <div class="news">
-        <h1 class="box3">Sign up to our Newsletter</h1>
+        <h1 class="box3 f-25 mb-4">Sign up to our Newsletter</h1>
         <input type="text">
-        <div class="btnAvada">
+        <div class="btnAvada button">
             <a href="">SUBSCRIBE</a>
         </div>
         <p class="box f-11" >
@@ -11,8 +11,6 @@
         </p>
     </div>
 </div>
-
-  
 
 </template>
 
@@ -32,19 +30,27 @@ export default {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
 
     .news{
         width: 500px;
-        height: 280px;
-        
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
         input{
             width: 100%;
             height: 38px;
             border: 1px solid #e3e3e3;
-            border-radius: 3px;
+            border-radius: 4px;
             background-color: #f7f7f7;
+        }
+
+        .button{
+            width: 100%;
+            margin: 30px 0;
         }
     }
 }

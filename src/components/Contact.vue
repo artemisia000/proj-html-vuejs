@@ -1,15 +1,15 @@
 <template>
 <div class="hero">
     <div class="content contact">
-        <div class="card">
+        <div class="card pe-4">
             <img src="../assets/avada-drivers-logo-2.png" alt="">
-            <p class="f-11 box" >Avada Driving School is the right choice for experienced drivers looking for a refresher course, or the brand new driver wanting to pass first time.</p>
+            <p class="f-11 box lh-lg mt-3" >Avada Driving School is the right choice for experienced drivers looking for a refresher course, or the brand new driver wanting to pass first time.</p>
         </div>        
-        <div class="card">
-            <h5>CONTACT DETAILS</h5>
+        <div class="card pe-4">
+            <h5 class="f-15 box2 mb-3" >CONTACT DETAILS</h5>
             <div>
                 <i class="fas fa-home box5"></i>
-                <span class="f-11 box" >12345 North Main Street,
+                <span class="f-11 box" >12345 North Main Street,<br>
                       New York, NY 555555
                 </span>
             </div>
@@ -33,8 +33,8 @@
             </div>      
         </div>
 
-        <div class="card">
-            <h5>COURSES</h5>
+        <div class="card pe-4">
+            <h5 class="f-15 box2 mb-3" >COURSES</h5>
             <div>
                 <i class="far fa-arrow-alt-circle-right box1 "></i>
                 <span>
@@ -63,7 +63,7 @@
 
         <div class="card">
             <img src="../assets/grid1.png" alt="">
-            <div class="btnAvada mt-4">
+            <div class="btnAvada mt-4 button">
                 <a href="">BOOK NOW</a>
             </div>
         </div>
@@ -84,7 +84,7 @@ export default {
 
 .hero{
     width: 100%;
-    height: 350px;
+    height: 380px;
     background-image: url(../assets/footer-background-color.jpg);
     background-size: cover;
     
@@ -93,7 +93,7 @@ export default {
     height: 350px;
     background-color: transparent;
     border: transparent;
-    padding: 50px 10px;
+    padding-top: 50px;
 
     span{
         padding-left: 10px;
@@ -102,8 +102,12 @@ export default {
 
     a{
         text-decoration: none;
-        font-size: 15px;
-        line-height: 35px;      
+        font-size: 15px;    
+    }
+
+    .button{
+        width: 140px;
+        margin: 0 auto;
     }
     
 }
