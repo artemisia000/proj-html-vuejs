@@ -18,7 +18,6 @@
 
 </footer>
   
-
 </template>
 
 <script>
@@ -49,8 +48,7 @@ footer{
             color: #fff;
             padding: 0 16px;
             margin:auto;
-        }
-    
+        }   
     }
 }
 
