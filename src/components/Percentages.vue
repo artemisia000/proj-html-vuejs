@@ -3,21 +3,21 @@
 <div class="content  justify-content-between">
     <div class="card boxes">
         <div class="circle">
-            <span class="box fs-1">95%</span>
+            <span class="box f-50 fw-light">95%</span>
         </div>
-        <span class="f-18 box mt-5">PASS RATE</span>
+        <span class="f-15 box mt-5">PASS RATE</span>
     </div>
     <div class="card boxes">
         <div class="circle">
-            <span class="box fs-1" >95%</span>
+            <span class="box f-50 fw-light">100%</span>
         </div>
-        <span class="f-18 box mt-5">PASS RATE</span>
+        <span class="f-15 box mt-5">REFFERAL RATE</span>
     </div>
     <div class="card boxes">
         <div class="circle">
-            <span class="box fs-1" >95%</span>
+            <span class="box f-50 fw-light">0%</span>
         </div>
-        <span class="f-18 box mt-5">PASS RATE</span>
+        <span class="f-15 box mt-5">ACCIDENT RATE</span>
     </div>
 
 </div>
@@ -48,7 +48,8 @@ export default {
         border: 10px solid #7abc64;
         border-radius: 50%;
         text-align: center;
-        line-height: 200px;
+        line-height: 180px;
+        
     }
     }
 

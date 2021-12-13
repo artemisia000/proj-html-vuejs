@@ -67,18 +67,20 @@
 }
 
 .f-25{
-    font-size: 25px;
+    font-size: $font-25;
 }
 
 .f-35{
-    font-size: 35px;
+    font-size: $font-35;
+}
+
+.f-50{
+    font-size: $font-50;
 }
 
 .w-300{
     font-weight: 300;
 }
-
-
 
 
 
@@ -104,7 +106,6 @@
     }
 
 }
-
 
 
 .btnAviat{

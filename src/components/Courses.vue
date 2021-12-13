@@ -1,7 +1,7 @@
 <template>
 <div class="body">
     <div class="content cars">
-        <div class="tab boxes text-center">
+        <div class="tab boxes text-center boxes2">
             <img src="../assets/new-corner.jpg" alt=""
                  class="new"
                  >

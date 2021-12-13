@@ -1,7 +1,7 @@
 <template>
 
 <div class="content justify-content-between">
-    <div class="card boxes">
+    <div class="card boxes boxes2">
         <img src="../assets/mikehart.jpg" alt="">
         <h4 class="box3 mt-3" >Mike Hart</h4>
         <div class="social">
@@ -13,7 +13,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
     </div>
-    <div class="card boxes">
+    <div class="card boxes boxes2">
         <img src="../assets/johnsmith.jpg" alt="">
         <h4 class="box3 mt-3" >John Smith</h4>
         <div class="social">
@@ -25,7 +25,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
     </div>
-    <div class="card boxes">
+    <div class="card boxes boxes2">
         <img src="../assets/angelahart.jpg" alt="">
         <h4 class="box3 mt-3" >Angela Hart</h4>
         <div class="social">
