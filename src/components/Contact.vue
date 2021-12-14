@@ -106,14 +106,13 @@ export default {
     span{
         padding-left: 10px;
         line-height: 35px;
-    }
-
-    a{
-        text-decoration: none;
-        font-size: 15px;
-        &:hover{
+        color: #7abc64;
+        a{
+            text-decoration: none;
+            &:hover{    
             color: #7abc64;
-        }    
+        }
+      }    
     }
 
     .button{
