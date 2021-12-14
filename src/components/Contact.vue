@@ -81,9 +81,11 @@
 </template>
 
 <script>
+
 export default {
     name: 'Contact'
 }
+
 </script>
 
 <style scoped lang="scss">
@@ -120,7 +122,6 @@ export default {
     }  
   }
 }
-
 
 
 </style>

@@ -48,7 +48,7 @@ export default {
 
     .news{
         width: 970px;
-        height: 580px;
+        height: 585px;
         margin: 0 auto;
         background-color: #fff;
         border-top: 6px solid #7799ad;
@@ -91,7 +91,7 @@ export default {
 
     .triangle{
         width: 970px;
-        margin-top: 530px; 
+        margin-top: 535px; 
         filter: drop-shadow(30px 10px 4px#588281 );       
         }
 }

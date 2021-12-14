@@ -1,4 +1,5 @@
 <template>
+
 <div class="body">
     <div class="content cars">
         <div class="tab boxes text-center boxes2">
@@ -11,6 +12,7 @@
                 <a href="">COURSE INFORMATION</a>
             </div>
         </div>
+
         <div class="courses">
             <div class="car">
                 <img src="../assets/courses.jpg" alt="">
@@ -19,6 +21,7 @@
                     <a href="">LEARN MORE</a>
                 </div>       
             </div>
+
             <div class="car ">
                 <img src="../assets/intensive.jpg" alt="">
                     <h3 class="box4 mt-3 f-18" >Intensive Course</h3>
@@ -26,6 +29,7 @@
                     <a href="">LEARN MORE</a>
                 </div>       
             </div>
+
             <div class="car ">
                 <img src="../assets/instructor.jpg" alt="">
                     <h3 class="box4 mt-3 f-18" >Instructors</h3>
@@ -40,10 +44,11 @@
 </template>
 
 <script>
+
 export default {
     name: 'Courses'
-
 }
+
 </script>
 
 <style scoped lang="scss">
@@ -58,7 +63,6 @@ export default {
         position: relative;
     }
  
-
     .tab{
         width: 330px;
         height: 350px;
@@ -102,12 +106,8 @@ export default {
         width: 120px;
         margin: 15px auto;
         }
- 
     }
-
-
-    }
-
+  }
 }
 
 </style>

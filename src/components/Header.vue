@@ -6,8 +6,6 @@
     <Navbar />
 
     <Hero />
-
-
 </header>
   
 </template>
@@ -28,8 +26,8 @@ export default {
         Hero,
     }
 }
-
 </script>
+
 
 <style>
 

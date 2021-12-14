@@ -39,13 +39,14 @@
 </template>
 
 <script>
+
 export default {
     name: 'Navbar'
 }
+
 </script>
 
 <style scoped lang="scss">
-
 
 .navbar{
     width: 100%;
@@ -85,8 +86,7 @@ export default {
                 text-align: center;
                 margin-left: 5px;
                 text-align: center; 
-            }
-            
+            }          
     }
 
     a{
@@ -94,8 +94,7 @@ export default {
         font-size: 12px;
         font-weight: 600;
         text-decoration: none;
-    }    
-    
+    }       
 }
 
 .btn1{

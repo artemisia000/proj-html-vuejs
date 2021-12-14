@@ -21,9 +21,11 @@
 </template>
 
 <script>
+
 export default {
     name: 'Hero'
 }
+
 </script>
 
 <style scoped lang="scss">
@@ -40,7 +42,6 @@ export default {
         right: 20px;
         top: 120px;
         z-index: 3;
-
 
     .shop{
         width: 70px;

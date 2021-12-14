@@ -1,4 +1,5 @@
 <template>
+
 <main>
     <SectionTop />
 
@@ -15,11 +16,8 @@
     <Testimonials />
 
     <Hero3 />
-
 </main>
   
-
-
 </template>
 
 <script>
@@ -45,8 +43,8 @@ export default {
         Testimonials,
         Hero3,
     }
-
 }
+
 </script>
 
 <style scoped lang="scss">

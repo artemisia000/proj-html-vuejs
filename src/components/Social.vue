@@ -1,4 +1,5 @@
 <template>
+
 <footer>
     <div class="content foot">
 
@@ -12,11 +13,9 @@
             <a href=""><i class="fab fa-twitter"></i></a>
             <a href=""><i class="fab fa-youtube"></i></a>
             <a href=""><i class="fab fa-instagram"></i></a>
-        </div>
-        
+        </div> 
+
     </div>
-
-
 </footer>
   
 </template>
@@ -26,6 +25,7 @@
 export default {
     name: 'Social'
 }
+
 </script>
 
 <style scoped lang="scss" >

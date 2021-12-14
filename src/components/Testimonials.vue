@@ -1,4 +1,5 @@
 <template>
+
 <div class="hero">
     <div class="testimonials">
         <h1 class="box3 f-35">Testimonials</h1>
@@ -15,16 +16,17 @@
             <i class="far fa-circle"></i>
             <i class="far fa-circle"></i>
         </div>
-
     </div>
 </div>
 
 </template>
 
 <script>
+
 export default {
     name: 'Testimonials'
 }
+
 </script>
 
 <style scoped lang="scss">
@@ -61,8 +63,6 @@ export default {
         font-family: 'Readex Pro', sans-serif;
         font-family: 'Work Sans', sans-serif;
     }
-
-
 }
 
 </style>

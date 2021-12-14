@@ -15,6 +15,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'GreenNum'
 }
@@ -32,7 +33,6 @@ export default {
 .box{
     justify-content: space-between;
     line-height: 40px;
-
 }
 
 </style>

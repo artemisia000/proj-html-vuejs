@@ -37,13 +37,12 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </span>
     </div>
-
 </div>
   
-
 </template>
 
 <script>
+
 export default {
     name: 'Instructors'
 }

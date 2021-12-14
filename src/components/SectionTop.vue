@@ -29,14 +29,14 @@
    
  </div>
   
-
 </template>
 
 <script>
+
 export default {
     name: 'SectionTop'
-
 }
+
 </script>
 
 <style scoped lang="scss" >
@@ -49,8 +49,7 @@ export default {
     .text{
         width: 450px;
         margin-top: 50px;
-        line-height: 30px;
-            
+        line-height: 30px;         
     }
 
     .form{
@@ -76,9 +75,6 @@ export default {
             width: 215px;
         }
     }
-
 }
-
-
 
 </style>

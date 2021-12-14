@@ -13,6 +13,7 @@
 </template>
 
 <script>
+
 import NewsLetter from '@/components/NewsLetter.vue';
 import Contact from '@/components/Contact.vue';
 import Social from '@/components/Social.vue';
@@ -27,6 +28,7 @@ export default {
         Social,
     }
 }
+
 </script>
 
 <style>

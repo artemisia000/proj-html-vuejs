@@ -1,4 +1,5 @@
 <template>
+
 <div class="hero" >
     <div class="news">
         <h1 class="box3 f-25 mb-4">Sign up to our Newsletter</h1>
@@ -15,10 +16,11 @@
 </template>
 
 <script>
+
 export default {
     name: 'NewsLetter'
-
 }
+
 </script>
 
 <style scoped lang="scss">

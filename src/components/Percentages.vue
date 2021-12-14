@@ -45,32 +45,8 @@
             <h2 class="text f-15 box" >ACCIDENT RATE</h2>
         </div>
     </div>
-
-
 </div>
 
-<!--
-<div class="content  justify-content-between">
-    <div class="card boxes">
-        <div class="circle">
-            <span class="box f-50 fw-light">95%</span>
-        </div>
-        <span class="f-15 box mt-5">PASS RATE</span>
-    </div>
-    <div class="card boxes">
-        <div class="circle">
-            <span class="box f-50 fw-light">100%</span>
-        </div>
-        <span class="f-15 box mt-5">REFFERAL RATE</span>
-    </div>
-    <div class="card boxes">
-        <div class="circle">
-            <span class="box f-50 fw-light">0%</span>
-        </div>
-        <span class="f-15 box mt-5">ACCIDENT RATE</span>
-    </div>
-</div>
--->
 </template>
 
 <script>
@@ -106,7 +82,7 @@ export default {
         fill: none;
         stroke: #f6f6f6;
         stroke-width: 12;
-        stroke-linecap: round;   
+        stroke-linecap: round;       
     }
 
     svg circle:nth-child(2){
@@ -123,7 +99,7 @@ export default {
         stroke: #7abc64;
     }
     .percent:nth-child(3) svg circle:nth-child(2){
-        stroke-dashoffset: calc(400 - (440 * 0) / 100);
+        stroke-dashoffset: calc(440 - (440 * 0) / 100);
         stroke: #7abc64;
     }
 
@@ -131,8 +107,6 @@ export default {
         transform: translate(0px ,-135px);
     }
 
-
     }
 
- 
 </style>
