@@ -74,6 +74,7 @@ export default {
         width: 200px;
         height: 200px;
         z-index: 4;
+        filter: drop-shadow(3px 0 5px #b5babf);
     }
 
     svg circle{
@@ -86,20 +87,20 @@ export default {
     }
 
     svg circle:nth-child(2){
-        stroke-dasharray: 440;
-        stroke-dashoffset: 440;
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
     }
 
     .percent:nth-child(1) svg circle:nth-child(2){
-        stroke-dashoffset: calc(440 - (440 * 95) / 100);
+        stroke-dashoffset: calc(600 - (600 * 95) / 100);
         stroke: #7abc64;
     }
     .percent:nth-child(2) svg circle:nth-child(2){
-        stroke-dashoffset: calc(440 - (440 * 100) / 100);
+        stroke-dashoffset: calc(600 - (600 * 100) / 100);
         stroke: #7abc64;
     }
     .percent:nth-child(3) svg circle:nth-child(2){
-        stroke-dashoffset: calc(440 - (440 * 0) / 100);
+        stroke-dashoffset: calc(600 - (600 * 0) / 100);
         stroke: #7abc64;
     }
 

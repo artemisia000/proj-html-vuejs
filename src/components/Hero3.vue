@@ -71,7 +71,7 @@ export default {
 
             img{
                 &:hover{
-                    filter: brightness(1.4);
+                    filter: brightness(1.6);
                     transition: filter 1s linear;
                 }
             }

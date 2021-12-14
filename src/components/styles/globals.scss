@@ -124,11 +124,11 @@
     a{
         color: $text-col-4;
         text-decoration: none;
+        &:hover{
+            color: #7abc64;
+        }
     }
 
-    &:hover{
-        color: #7abc64;
-    }
 }
 
 //BOXES

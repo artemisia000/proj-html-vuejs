@@ -6,11 +6,11 @@
           <h4 class="w-300" >We offer the finest driving tuition money can buy</h4>
       </div>
       <div class="cart" >
-          <div  class="shop boxes2">
+          <div  class="shop boxes2 animated infinite pulse">
               <i class="fas fa-archive box6 demos"></i>
               <p class="box3 f-13" >Demos</p>
           </div>
-          <div class="shop boxes2" >
+          <div class="shop boxes2 animated infinite pulse">
               <i class="fas fa-dollar-sign box6"></i>
               <span class="box1 ">39</span>
               <p class="box3 f-13" >On Sale</p>
@@ -51,6 +51,8 @@ export default {
         text-align: center;
         background-color: #fff;
         text-align: center;
+    }
+}
 
         .demos{
             font-size: 30px;
@@ -61,8 +63,7 @@ export default {
             font-size: 35px;
         }
       } 
-    }
-
+    
     .text{
         height: 100%;
         flex-direction: column;
@@ -72,6 +73,6 @@ export default {
             font-size: 60px;
         }
     }
-}
+
 
 </style>
